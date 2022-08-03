@@ -1,4 +1,4 @@
-# 【关于 文本匹配模型 ESIM 】那些你不知道的事 
+# 文本匹配模型ESIM
 
 > 作者：杨夕
 > 
@@ -200,8 +200,3 @@
   - 参数name：该操作的name
   - 参数labels：shape是[batch_size, num_classes]，神经网络期望输出。
   - 参数logits：shape是[batch_size, num_classes] ，神经网络最后一层的输入。
-
-## 参考
-
-1. [文本匹配、文本相似度模型之ESIM](https://blog.csdn.net/u012526436/article/details/90380840)
-2. [短文本匹配的利器-ESIM](https://zhuanlan.zhihu.com/p/47580077)
